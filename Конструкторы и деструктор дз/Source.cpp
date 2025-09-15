@@ -8,7 +8,7 @@ class Laptop {
 public:
 	Laptop(const char* m, const char* c, double p)
 	{
-		model = new char[strlen(m) +2];
+		model = new char[strlen(m) + 2];
 		strcpy_s(model, strlen(m) + 2, m);
 
 		color = new char[strlen(c) + 1];
